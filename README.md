@@ -1,2 +1,2 @@
 # 1530FinalProject
-Final Project for 1530
+Samih Irfan, Kareem Mohsen, Danish Ghumman
