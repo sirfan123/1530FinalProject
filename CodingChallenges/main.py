@@ -6,5 +6,9 @@ app = Flask(__name__)
 def default():
     return render_template("index.html")
 
+@app.route('/learning_paths')
+def play_details():
+    return render_template("paths.html") 
+
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
