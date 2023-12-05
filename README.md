@@ -3,7 +3,7 @@
 ## Scrum Master: Kareem Mohsen 
 ## Developer(s): Danish Ghumman, Samih Irfan, Kareem Mohsen
 
-This is our submission for the final project
+### This is our submission for the final project
 
 Below is the link to our Trello board for our standup meetings
 
