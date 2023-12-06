@@ -62,3 +62,34 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+
+h2 {
+    text-align: center;  
+    font-family: 'Arial', sans-serif;  
+    font-size: 24px;  
+    color: #333; 
+    margin-top: 20px; 
+    margin-bottom: 20px;  
+}
+
+/* Style for the learning path container */
+.learning-path {
+    text-align: center;  
+    margin: auto; 
+    max-width: 800px;  
+    padding: 10px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  
+    background-color: #fff;  
+    border-radius: 10px;  
+    margin-bottom: 30px;  
+}
+
+
+.game-cards {
+    list-style-type: none;  
+    padding: 0; 
+    display: flex;  
+    justify-content: center;  
+    flex-wrap: wrap; 
+    gap: 20px;  
+}
