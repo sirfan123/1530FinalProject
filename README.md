@@ -17,6 +17,6 @@ Second, we also decided on a schedule for our sprints and meetings: we would do 
 Last, we all contributed to the creation of the overall Product Backlog for our software, which we developed based on our functional requirements. From that backlog, we prioritized features, leading us to have our main five features that we put into our Trello board and in our final Product backlog. From those five, we decided to focus on two main features, being the implementation of Coding Challenges as well as the corresponding Learning Path that includes those coding challenges.
 Sprint 1 (on Sunday) involved us developing the infrastructure necessary to be able to make progress on our backlog features. This included us setting up our development and testing environments and creating the actual coding infrastructure (files, classes) needed. Sprint 2 (on Monday) involved us developing our two main features and their respective subtasks.
 
-#Project Setup Guide
+# Project Setup Guide
 
 
