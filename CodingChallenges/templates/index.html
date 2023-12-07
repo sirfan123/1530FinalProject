@@ -1,86 +1,120 @@
 <!-- main_page.html -->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Main Page</title>
-    <link href="/static/styles/styles.css" type="text/css" rel="stylesheet">
-</head>
+    <link href="/static/styles/styles.css" type="text/css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
+    <!-- Form Section -->
+    <div class="form-container">
+      <form id="registration-form">
+        <input
+          type="text"
+          id="first-name"
+          name="first_name"
+          placeholder="First Name"
+          required
+        />
+        <input
+          type="text"
+          id="last-name"
+          name="last_name"
+          placeholder="Last Name"
+          required
+        />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
     <div id="gameDiv">
-        <ul class="game-cards">
-            <li>
-                <img src="static/images/Game1.jpeg" alt="Game 1">
-                <div class="card-content">
-                    <h3>Game 1</h3>
-                    <p> Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                </div>
-            </li>
-            <li>
-                <img src="static/images/Game2.jpeg" alt="Game 2">
-                <div class="card-content">
-                    <h3>Game 2</h3>
-                    <p> Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <img src="static/images/Game3.jpeg" alt="Game 3">
-                <div class="card-content">
-                    <h3>Game 3</h3>
-                    <p> Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <img src="static/images/Game4.jpeg" alt="Game 4">
-                <div class="card-content">
-                    <h3>Game 4</h3>
-                    <p> Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <img src="static/images/Game5.jpeg" alt="Game 5">
-                <div class="card-content">
-                    <h3>Game 5</h3>
-                    <p> Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <img src="static/images/Game6.jpeg" alt="Game 6">
-                <div class="card-content">
-                    <h3>Game 6</h3>
-                    <p> Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                        Lorem ipsum dolor sit amet<br>
-                    </p>
-                </div>
-            </li>
-        </ul>
+      <ul class="game-cards">
+        <li>
+          <img src="static/images/Game1.jpeg" alt="Game 1" />
+          <div class="card-content">
+            <h3>Game 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="static/images/Game2.jpeg" alt="Game 2" />
+          <div class="card-content">
+            <h3>Game 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="static/images/Game3.jpeg" alt="Game 3" />
+          <div class="card-content">
+            <h3>Game 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="static/images/Game4.jpeg" alt="Game 4" />
+          <div class="card-content">
+            <h3>Game 4</h3>
+            <p>
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="static/images/Game5.jpeg" alt="Game 5" />
+          <div class="card-content">
+            <h3>Game 5</h3>
+            <p>
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="static/images/Game6.jpeg" alt="Game 6" />
+          <div class="card-content">
+            <h3>Game 6</h3>
+            <p>
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+              Lorem ipsum dolor sit amet<br />
+            </p>
+          </div>
+        </li>
+      </ul>
     </div>
     <!--------------------------------------------------------------------------------------------------------->
     <div class="redirect-button">
-        <a href="/learning_paths">Go to Learning Paths</a>
+      <a href="/learning_paths">Go to Learning Paths</a>
     </div>
-</body>
+  </body>
 </html>
