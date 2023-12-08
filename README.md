@@ -19,8 +19,12 @@ Sprint 1 (on Monday) involved us developing the infrastructure necessary to be a
 
 ## Timeline
 
-----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------
-                               Saturday - Sprint 0                        Monday - Sprint 1                       Tuesday - Sprint 2
+| Saturday | Monday  | Tuesday |
+|----------------------|-------------------|--------------------|
+|      Sprint 0        |      Sprint 1     |       Sprint 2     |
+
+
+                                                                             
 
 # Project Setup Guide
 
